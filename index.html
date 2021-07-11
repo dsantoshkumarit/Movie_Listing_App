@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Movie Search</title>
+  </head>
+
+  <body>
+    <header><h1>Movie Listing App</h1></header>
+
+    <header class="search-header">
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search by name" />
+      </form>
+
+      <form id="search-form-year">
+        <input
+          type="text"
+          id="search-input-year"
+          placeholder="Search by year"
+        />
+      </form>
+
+      <div class="filter-container">
+        <button>
+          <i class="fa fa-filter" aria-hidden="true"></i>
+          Filter
+        </button>
+        <div class="filter-content">
+          <p onclick='filterList("date-asc")'>By Date Asc</p>
+          <p onclick='filterList("date-desc")'>By Date Desc</p>
+          <p onclick='filterList("name-asc")'>By Name Asc</p>
+          <p onclick='filterList("name-desc")'>By Name Desc</p>
+        </div>
+      </div>
+    </header>
+    <main id="main"></main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
