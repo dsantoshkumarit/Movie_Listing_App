@@ -1,4 +1,4 @@
-const apiKey = process.env.TMDB_KEY;
+const apiKey = process.env.TMDB_Key;
 const Api_Url = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1`;
 
 const Img_Base_Url = "https://image.tmdb.org/t/p/w500";
@@ -6,8 +6,7 @@ const Img_Base_Url = "https://image.tmdb.org/t/p/w500";
 
 const Search_Api_Url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query='`;
 
-const Search_by_Year_Api_Url =
-  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1&primary_release_year=";
+const Search_by_Year_Api_Url = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1&primary_release_year=`;
 
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");

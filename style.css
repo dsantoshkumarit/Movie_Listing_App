@@ -120,13 +120,15 @@ main {
 
 .movie-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.5rem 1rem 1rem;
   letter-spacing: 0.5px;
 }
 
 .movie-info h3 {
+  text-align: center;
   margin-top: 1rem;
 }
 
@@ -135,6 +137,7 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
   font-weight: bold;
+  min-width: fit-content;
 }
 
 .movie-info span.green {
