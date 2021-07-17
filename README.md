@@ -17,22 +17,19 @@ I know that professionals use Figma, Adobe XD etc softwares for their product de
 
 Online wireframe : [Movie Listing App Wireframe](https://wireframe.cc/ULgkz7)
 
-Wireframe Image : ![Movie Listing App Wireframe Image](https://github.com/dsantoshkumarit/Movie_Listing_App/blob/main/images/proj%20wire%20frame.PNG?raw=true)
+Wireframe Image : 
+
+![Movie Listing App Wireframe Image](https://github.com/dsantoshkumarit/Movie_Listing_App/blob/main/images/proj%20wire%20frame.PNG?raw=true)
 
 
 ## 📊 How can I improve this project
 If I had more time I could have added or done the below improvements :
     
-    1. I could have added a section to 
-    display upcoming movies. 
+    1. I could have added a section to display upcoming movies. 
 
-    2. I could have added more search 
-    by fields like search by actor name, 
-    director, rating etc.
+    2. I could have added more search by fields like search by actor name, director, rating etc.
 
-    3. I could have made the application 
-    more responsive and good looking by
-    working more on the CSS part.
+    3. I could have made the application more responsive and good looking by doing more work on the CSS part.
 
 ## 💻 How to run this application 
 Just download this repository and open the index.html file in any browser.
