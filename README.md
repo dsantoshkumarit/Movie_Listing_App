@@ -13,7 +13,7 @@ This project uses The Movie Database V3(TMDB) API for fetching the movie details
 Documentation : [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ## 🎨 How I came up with this Design
-I know that professionals use Figma, Adobe XD etc softwares for their product designs. But I was not familiar with the design tools so I tried creating a design using a simple wire framing tool available online and made it.
+I know that professionals use Figma, Adobe XD etc softwares for their product designs. But I am not familiar with the design tools so I tried creating a basic design using a simple wire framing tool available online.
 
 Online wireframe : [Movie Listing App Wireframe](https://wireframe.cc/ULgkz7)
 
